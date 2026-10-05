@@ -1,0 +1,8 @@
+alert_id,date,status,scope_type,scope_value,severity,category,description,delay_days_est
+ALT-001,2026-09-30,ACTIVE,COUNTRY,Taiwan,HIGH,TYPHOON,Typhoon closes Kaohsiung port; ocean and air shipments delayed 7-10 days,10
+ALT-002,2026-09-05,RESOLVED,COUNTRY,Vietnam,HIGH,PORT_CONGESTION,Port congestion cleared; schedules back to normal,0
+ALT-003,2026-09-28,ACTIVE,COUNTRY,Mexico,MEDIUM,CUSTOMS,"Customs inspection delays on cross-border trucking, 1-2 days",2
+ALT-004,2026-09-25,ACTIVE,COUNTRY,Germany,LOW,LABOR,Planned one-day rail strike next month,1
+ALT-005,2026-10-01,ACTIVE,COUNTRY,Japan,HIGH,EARTHQUAKE,"Earthquake near Osaka; some plants paused for inspection, about 7 days",7
+ALT-006,2026-09-29,ACTIVE,COUNTRY,Chile,HIGH,LABOR,Copper port strike (no current suppliers in this country),5
+ALT-007,2026-08-20,RESOLVED,COUNTRY,Thailand,MEDIUM,FLOOD,Flooding receded; roads reopened,0

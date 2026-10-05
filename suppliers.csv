@@ -1,0 +1,13 @@
+supplier_id,name,country,lead_time_days,financial_health_score
+SUP-001,Pacific Components Ltd,Taiwan,35,82
+SUP-002,Formosa Circuits Co,Taiwan,28,78
+SUP-003,Nordic Precision AB,Sweden,21,85
+SUP-004,Gulf Metals FZE,UAE,42,38
+SUP-005,Midwest Fastener Co,USA,14,88
+SUP-006,Saigon Assembly JSC,Vietnam,30,80
+SUP-007,Bajio Wire & Cable SA,Mexico,21,76
+SUP-008,Rhein Magnetics GmbH,Germany,28,52
+SUP-009,Kansai Sensors KK,Japan,35,90
+SUP-010,Penang Semiconductor Sdn,Malaysia,28,84
+SUP-011,Great Lakes Packaging,USA,14,79
+SUP-012,Alpine Connectors AG,Switzerland,21,88

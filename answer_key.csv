@@ -1,0 +1,54 @@
+item_id,supplier_id,expected_risk_level,scenario
+ITM-001,SUP-001,HIGH,Runs out because of alert delay
+ITM-002,SUP-001,HIGH,Runs out because of alert delay
+ITM-003,SUP-001,HIGH,Runs out because of alert delay
+ITM-004,SUP-001,HIGH,Just-in-time PO + high-risk supplier
+ITM-005,SUP-001,LOW,Ample stock
+ITM-006,SUP-002,HIGH,Runs out before PO lands
+ITM-007,SUP-002,HIGH,"PO too small, follow-on PO overdue"
+ITM-008,SUP-002,HIGH,Just-in-time PO + high-risk supplier
+ITM-009,SUP-002,LOW,Ample stock
+ITM-010,SUP-002,LOW,Ample stock
+ITM-011,SUP-003,HIGH,Just-in-time PO + high-risk supplier
+ITM-012,SUP-003,HIGH,"No usable PO, below reorder point"
+ITM-013,SUP-003,LOW,"No PO, ample stock"
+ITM-014,SUP-003,LOW,Ample stock
+ITM-015,SUP-003,LOW,Ample stock
+ITM-016,SUP-004,HIGH,Runs out before PO lands
+ITM-017,SUP-004,HIGH,Just-in-time PO + high-risk supplier
+ITM-018,SUP-004,LOW,Ample stock
+ITM-019,SUP-004,LOW,Ample stock
+ITM-020,SUP-005,HIGH,"No usable PO, below reorder point"
+ITM-021,SUP-005,MEDIUM,Just-in-time PO
+ITM-022,SUP-005,LOW,Ample stock
+ITM-023,SUP-005,LOW,Ample stock
+ITM-024,SUP-006,HIGH,Runs out before PO lands
+ITM-025,SUP-006,HIGH,Runs out before PO lands
+ITM-026,SUP-006,MEDIUM,Just-in-time PO
+ITM-027,SUP-006,LOW,Ample stock
+ITM-028,SUP-006,LOW,Ample stock
+ITM-029,SUP-007,MEDIUM,Just-in-time PO
+ITM-030,SUP-007,MEDIUM,"No PO, reorder point within 14 days"
+ITM-031,SUP-007,LOW,Ample stock
+ITM-032,SUP-007,LOW,Ample stock
+ITM-033,SUP-008,HIGH,"PO too small, follow-on PO overdue"
+ITM-034,SUP-008,MEDIUM,Just-in-time PO
+ITM-035,SUP-008,LOW,Ample stock
+ITM-036,SUP-008,LOW,Ample stock
+ITM-037,SUP-009,LOW,Ample stock
+ITM-038,SUP-009,LOW,Ample stock
+ITM-039,SUP-009,LOW,Ample stock
+ITM-040,SUP-009,LOW,Ample stock
+ITM-041,SUP-009,LOW,Ample stock
+ITM-042,SUP-010,MEDIUM,Just-in-time PO
+ITM-043,SUP-010,LOW,Ample stock
+ITM-044,SUP-010,LOW,"No PO, ample stock"
+ITM-045,SUP-010,LOW,Ample stock
+ITM-046,SUP-011,LOW,Ample stock
+ITM-047,SUP-011,LOW,Ample stock
+ITM-048,SUP-011,LOW,"No PO, ample stock"
+ITM-049,SUP-011,LOW,Ample stock
+ITM-050,SUP-012,LOW,Ample stock
+ITM-051,SUP-012,MEDIUM,Just-in-time PO
+ITM-052,SUP-012,MEDIUM,"No PO, reorder point within 14 days"
+ITM-053,SUP-012,LOW,Ample stock
