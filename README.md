@@ -64,6 +64,8 @@ Test data: 12 suppliers, 53 parts, 47 open POs, 7 alerts, with 23 parts rated HI
 
 **How to read this:** the data and answer key were written by me, and the rules were refined over several rounds, so this is a development score and not a guarantee for real data. Because levels, quantities and dates are computed by code, those measures test the pipeline more than the model. The wording checks confirm that the right facts appear and the IDs are valid. They do not confirm that every sentence is sound or well written. Twelve of the 23 first drafts failed at least one check and were revised once, so the validate-and-retry step matters; all 23 final briefs pass.
 
+A sample of real output from one run is in [example_output/risk_briefing.md](example_output/risk_briefing.md). Claude's wording differs on every run.
+
 ## Development notes
 
 - **The first version of the rules treated low stock with no risk signal as no risk.** A planner's review showed that stock running out before the open PO lands is a risk by itself. The rules were rebuilt around projected inventory, PO timing and alert delays.
